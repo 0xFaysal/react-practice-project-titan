@@ -8,6 +8,20 @@ LernerPro is a modern web application designed to provide a seamless learning ex
 
 ---------------------------------------
 
+### Live Link : [LernerPro Live](https://faysal-lernerpro.netlify.app/)
+
+## 🌟 Why I Did This Project
+
+LernerPro was created to practice and explore the latest updates in React and Tailwind CSS. With React 19.0 and Tailwind CSS 4.0, the project aims to leverage new features and improvements in these technologies. The goals include:
+
+- Practicing React and Tailwind CSS
+- Exploring new updates in React 19.0 and Tailwind CSS 4.0
+- Building a seamless and interactive learning environment
+- Fostering a community-driven approach to education
+- Offering expert mentorship and real-time feedback
+- Creating a user-friendly and responsive platform for all devices
+- Streamlining the learning process with structured courses and hands-on experiences
+
 ## 🚀 Key Features
 
 ### 💡 Modern Learning Platform
