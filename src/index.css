@@ -22,4 +22,7 @@
     .active {
         @apply border-b-4 border-primary;
     }
+    .gradient {
+        background: url("/gradient_bg.png") lightgray 50% / cover no-repeat;
+    }
 }
