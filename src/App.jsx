@@ -4,6 +4,7 @@ import Hero from "./component/Hero";
 import PopularCourses from "./component/PopularCourses";
 import Descreption from "./component/Descreption";
 import Feature from "./component/Feature";
+import Footer from "./component/Footer";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <PopularCourses />
             <Descreption />
             <Feature />
+            <Footer />
         </div>
     );
 }
