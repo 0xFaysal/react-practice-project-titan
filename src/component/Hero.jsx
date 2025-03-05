@@ -56,7 +56,7 @@ function Hero() {
                     <p>4.9</p>
                 </div>
             </div>
-            <div className='grid grid-cols-3 gap-4 max-w-7xl mx-auto my-10'>
+            <div className='grid grid-cols-3 gap-4 max-w-7xl mx-auto my-3'>
                 <Card
                     title='Interactive Learning'
                     desc='Dive deep into subjects with hands-on experiences and real-time feedback.'

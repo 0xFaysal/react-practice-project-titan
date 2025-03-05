@@ -2,7 +2,7 @@ import React from "react";
 
 function Descreption() {
     return (
-        <div className=' max-w-full h-screen'>
+        <div className=' max-w-full '>
             <div className='gradient max-w-7xl mx-auto text-center px-12 py-20  rounded-xl'>
                 <h1 className='text-5xl text-white font-bold mb-8 leading-tight'>
                     Emily Rolando
