@@ -15,7 +15,7 @@ function Footer() {
                         alt='logo'
                         className='backdrop-contrast-100'
                     />
-                    <h1 className='text-2xl font-bold'>Titan</h1>
+                    <h1 className='text-2xl font-bold'>LernerPro</h1>
                 </div>
                 <div className='flex gap-4 *:size-10 *:p-1 *:border-2 *:border-gray-200 *:rounded-xl'>
                     <img src={instagram} alt='instagram' />
