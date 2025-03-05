@@ -6,7 +6,7 @@ import img3 from "/GroupChat.png";
 function Feature() {
     return (
         <div className=' max-w-full my-16'>
-            <div className=' max-w-7xl mx-auto my-8 space-y-8'>
+            <div className=' max-w-7xl mx-auto my-8 space-y-12'>
                 <Card
                     img={img1}
                     title='Explore topics'
@@ -29,13 +29,13 @@ function Feature() {
 
 function Card({img, title, description}) {
     return (
-        <div className=' flex  items-center justify-center gap-8 w-full  p-4 rounded-lg shadow-sm'>
+        <div className=' flex flex-col md:flex-row  items-center justify-center gap-2 md:gap-8 w-full p-4 rounded-lg shadow-sm'>
             <img
                 src={img}
                 alt='card'
-                className='size-60 object-cover rounded-lg mb-4'
+                className='size-45 md:size-60 object-cover rounded-lg mb-4'
             />
-            <div className='w-1/2'>
+            <div className='w-full md:w-1/2 text-center md:text-left'>
                 <h2 className='text-2xl font-bold mb-2  '>{title}</h2>
                 <p className='text-gray-600 '>{description}</p>
             </div>

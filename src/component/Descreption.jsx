@@ -7,7 +7,7 @@ function Descreption() {
                 <h1 className='text-5xl text-white font-bold mb-8 leading-tight'>
                     Emily Rolando
                 </h1>
-                <p className='text-2xl font-semibold text-white mb-8 px-70'>
+                <p className='text-xl md:text-2xl font-semibold text-white mb-8 px-0 md:px-40 lg:px-70'>
                     I recently started learning to code with Tian and it's been
                     a game-changer. The lessons are clear and engaging, perfect
                     for beginners like me. I've already built my first app

@@ -4,9 +4,9 @@ import cover from "/cover.jpeg";
 
 function PopularCourses() {
     return (
-        <div className='my-20'>
+        <div className='my-20 py-2'>
             <h1 className='font-bold text-center text-3xl'>Popular Courses</h1>
-            <div className='grid grid-cols-4 gap-4 max-w-7xl mx-auto my-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center gap-4 max-w-7xl mx-auto my-10'>
                 <Card
                     img={cover}
                     title='Frontend Development with JavaScript'
@@ -42,7 +42,7 @@ function PopularCourses() {
 
 function Card({img, title, author, price, duration}) {
     return (
-        <div className='bg-white rounded-2xl p-4 border-2 border-gray-200 max-w-7xl'>
+        <div className='bg-white rounded-2xl  p-4 border-2 border-gray-200 max-w-86 py-8'>
             <img
                 src={img}
                 alt='course'

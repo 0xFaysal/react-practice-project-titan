@@ -7,8 +7,8 @@ import figma from "/Figma.svg";
 import medium from "/Medium.svg";
 function Footer() {
     return (
-        <footer className='w-full mx-auto flex justify-between items-center bg-gray-100 px-30 py-36'>
-            <div>
+        <footer className='w-full mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center bg-gray-100 md:px-30 py-36'>
+            <div className='flex flex-col justify-center items-center gap-4 mb-8 '>
                 <div className='inline-flex items-center gap-2 px-4 py-4'>
                     <img
                         src={logo}
@@ -25,7 +25,7 @@ function Footer() {
                     <img src={medium} alt='medium' />
                 </div>
             </div>
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 md:grid-cols-2 gap-y-8 lg:gap-y-0 '>
                 <div>
                     <h1 className='font-bold text-2xl'>Products</h1>
                     <ul className='space-y-2 mt-2 text-lg'>
