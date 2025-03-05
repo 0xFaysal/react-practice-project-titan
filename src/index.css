@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+
+@import "tailwindcss";
+
+@layer {
+    body {
+        font-family: "Inter Tight", sans-serif;
+    }
+}
+
+/*add new color to tailwind*/
+@theme {
+    --color-primary: #8b5cf6;
+    --color-text-primary: #262626;
+    --color-text-secondary: #737373;
+}
+
+@layer components {
+    .btn {
+        @apply bg-primary text-white font-bold py-2 px-4 rounded hover:bg-primary/80;
+    }
+    .active {
+        @apply border-b-4 border-primary;
+    }
+}
