@@ -18,9 +18,8 @@ function AboutUs() {
             </h1>
             <div className='flex  gap-2 mt-10 px-16 '>
                 <div className='flex-1/3 self-center text-left py-14 px-8'>
-                    <p className=' text-3xl font-bold capitalize leading-10 first-letter:text-6xl'>
-                        About LernerPro , <br />a leading online learning
-                        platform.
+                    <p className=' text-3xl font-bold p-8 capitalize leading-10 first-letter:text-6xl'>
+                        LernerPro , <br />a leading online learning platform.
                     </p>
                 </div>
                 <div className='flex-2/3  space-y-4 py-14 px-8'>
