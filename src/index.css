@@ -25,4 +25,8 @@
     .gradient {
         background: url("/gradient_bg.png") lightgray 50% / cover no-repeat;
     }
+    .bg-about-img {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url("/aboutus2.jpg") gray 100% / cover no-repeat;
+    }
 }

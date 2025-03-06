@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router";
 import logo from "/logo.jpg";
 import {GiHamburgerMenu} from "react-icons/gi";
 function Navbar() {
@@ -11,10 +12,18 @@ function Navbar() {
             <div>
                 <GiHamburgerMenu className='relative md:hidden text-xl' />
                 <ul className='hidden md:inline-flex items-center gap-8 text-lg  px-4 py-4'>
-                    <li className='active'>Home</li>
-                    <li>About Us</li>
-                    <li>Blog</li>
-                    <li>FAQ</li>
+                    <NavLink to='/' end>
+                        Home
+                    </NavLink>
+                    <NavLink to='/about' end>
+                        About Us
+                    </NavLink>
+                    <NavLink to='/blog' end>
+                        Blog
+                    </NavLink>
+                    <NavLink to='/faq' end>
+                        FAQ
+                    </NavLink>
                     <li>
                         <button className='btn'>Contact Us</button>
                     </li>
